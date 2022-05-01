@@ -1,0 +1,15 @@
+package fundamentos;
+
+import java.util.Date;
+
+public class Import {
+	public static void main(String[] args) {
+		Date x;
+		x = new Date();
+		System.out.println(x);
+		//////////////////////
+		Date y = new Date();
+		System.out.println(y);
+		
+	}
+}

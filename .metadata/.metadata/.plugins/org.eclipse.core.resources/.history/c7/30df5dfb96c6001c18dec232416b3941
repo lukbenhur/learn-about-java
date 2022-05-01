@@ -1,0 +1,17 @@
+package fundamentos.aulas;
+
+import java.util.Scanner;
+
+public class A14_ToString {
+
+	public static void main(String[] args) {
+		/*
+		 * comparação de strings usa-se o .equals
+		 */
+		Scanner dado = new Scanner(System.in);
+		String x = dado.next(); //nextLine considera tudo que voce usa , next desconsidera os espaços
+		dado.close();
+		System.out.println(x);
+	}
+
+}

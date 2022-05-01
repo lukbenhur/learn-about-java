@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class A7_String {
+	public static void main(String[] args) {
+		String frase = "Olá mundo";
+		System.out.println("Olá Mundo!!!".toUpperCase());
+			
+		System.out.println(frase.charAt(5));
+		System.out.println(frase.concat(" Cruel!!!"));
+		System.out.println(frase.equals("Olá mundo"));
+		
+		
+	}
+}

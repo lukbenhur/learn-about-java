@@ -1,0 +1,11 @@
+package fundamentos;
+
+public class TiposPrimitivos {
+	public static void main(String[] args) {
+		float vendas = 11.03F;
+		System.out.println();
+		long idade = 4222222222L;
+		System.out.println(vendas);
+		System.out.println(idade);
+	}
+}

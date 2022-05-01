@@ -1,0 +1,18 @@
+package fundamentos.Desafios;
+
+import javax.swing.JOptionPane;
+
+/*
+ * ler dois numeros e ler a operaçao que o usuario quer e apresentar o resultado
+ */
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		double num1,num2;
+		String operacao;
+		
+		num1 = Double.parseDouble(JOptionPane.showInputDialog("digite o primeiro numero:"));
+		num2 = Double.parseDouble(JOptionPane.showInputDialog("digite o segundo numero:"));
+		System.out.println(num1 *num2);
+	}
+
+	

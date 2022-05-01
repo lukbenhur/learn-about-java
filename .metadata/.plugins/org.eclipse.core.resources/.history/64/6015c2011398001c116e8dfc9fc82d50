@@ -1,0 +1,12 @@
+package fundamentos;
+
+public class NotacaoPonto {
+ 
+	public static void main(String[] args) {
+	
+		String a = "Feliz Natal X "; 
+		a = a.concat("Lucas");
+		a = a.replace("X","Lindao ");
+		System.out.println(a);
+	}
+}

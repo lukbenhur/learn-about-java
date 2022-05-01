@@ -1,0 +1,13 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Import {
+	public static void main(String[] args) {
+		int z;
+		Scanner x = new Scanner(System.in); 
+		z = x.nextInt();
+		System.out.println(z);
+		
+	}
+}

@@ -1,0 +1,32 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class B1_3_ExNotaPond {
+	public static void main(String[] args) {
+		double nota1,nota2,nota3,peso1,peso2,peso3,soma,media;
+		Scanner nota;
+		Scanner peso;
+		System.out.println("Digite o valor da primeira nota: ");
+		nota = new Scanner(System.in);
+		nota1 = nota.nextDouble();
+		System.out.println("Digite o valor do peso da primeira nota: ");
+		peso = new Scanner(System.in);
+		peso1 = peso.nextDouble();
+		System.out.println("Digite o valor da segunda nota: ");
+		nota = new Scanner(System.in);
+		nota2 = nota.nextDouble();
+		System.out.println("Digite o valor do peso da segunda nota: ");
+		peso = new Scanner(System.in);
+		peso2 = peso.nextDouble();
+		System.out.println("Digite o valor da terceira nota: ");
+		nota = new Scanner(System.in);
+		nota3 = nota.nextDouble();
+		System.out.println("Digite o valor do peso da terceira nota: ");
+		peso = new Scanner(System.in);
+		peso3 = peso.nextDouble();
+		
+		System.out.printf("%2f,%2f,%2f,%2f,%2f,%2f",nota1,nota2,nota3,peso1,peso2,peso3);
+		
+	}
+}

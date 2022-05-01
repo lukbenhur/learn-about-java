@@ -1,0 +1,27 @@
+package fundamentos.Exercicios;
+
+import java.util.Scanner;
+
+/*
+ * Criar um programa que leia o peso e a altura do usuário e imprima no console o IMC.
+ */
+public class IMC {
+	
+	public static void main(String[] args) {
+		Scanner dado = new Scanner(System.in);
+		double peso,altura;
+		final double IMC;
+		String nome;
+		
+		System.out.println("Qual seu nome?");
+		nome = dado.nextLine();
+		System.out.println("Qual sua altura?");
+		altura = dado.nextDouble();
+		System.out.println("Qual o seu peso?");
+		peso = dado.nextDouble();
+		
+		IMC = peso / (altura*altura);
+		System.out.printf("%s, o seu indice de massa corporal é: %.2f.",nome,IMC);
+		
+	}
+}

@@ -1,0 +1,17 @@
+package fundamentos;
+
+
+
+public class A10_NumberToString {
+	public static void main(String[] args) {
+		
+		//converter variavel do tipo numero para tipo string
+		int num1 = 10000;
+		System.out.println(Integer.toString(num1).length()); //chamo a funcionalidade toString da classe Integer e passo como parametro a variavel primitiva
+		
+		Integer num2 = 20000;
+		System.out.println(num2.toString()); //fiz a chamada direta pois a varivel ja foi declarada como sendo integer (Wrapper)
+		
+		
+	}
+}

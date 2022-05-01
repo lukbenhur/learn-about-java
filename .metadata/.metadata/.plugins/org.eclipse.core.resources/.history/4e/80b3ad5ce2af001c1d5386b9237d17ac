@@ -1,0 +1,14 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class A11_StringToNumber {
+	public static void main(String[] args) {
+		
+		String dado = JOptionPane.showInputDialog("Olá Digite um numero");
+		System.out.println(dado);
+		double x = Double.parseDouble(dado);
+		System.out.println(x/2);
+	
+	}
+}

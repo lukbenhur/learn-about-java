@@ -1,0 +1,26 @@
+package fundamentos;
+
+import java.util.Date;
+import java.util.Scanner;
+public class Import {
+	public static void main(String[] args) {
+		Date x;
+		x = new Date();
+		System.out.println(x);
+		//////////////////////
+		Date y = new Date();
+		System.out.println(x);
+		//////////////////////
+		int z;
+		Scanner dado;
+		dado = new Scanner(System.in);
+		z = dado.nextInt();
+		System.out.println(z);
+		////////////////////////
+		Scanner dado1 = new Scanner(System.in);
+		int s;
+		s = dado1.nextInt();
+		System.out.println(s);
+		
+	}
+}

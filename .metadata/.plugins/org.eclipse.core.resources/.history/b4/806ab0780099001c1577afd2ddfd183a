@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class Operadores {
+	
+	public static void main(String[] args) {
+		
+		
+		for(int z = 0 ; z > 5 ; ++z) {
+			System.out.println("lcuas");
+		}
+		
+//		System.out.println(y);
+//		System.out.println(z);
+	}
+}

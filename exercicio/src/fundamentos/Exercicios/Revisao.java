@@ -22,7 +22,7 @@ public class Revisao {
 		np3 = dado.nextDouble();
 		System.out.println("Qual o valor da quarta nota?");
 		np4 = dado.nextDouble();
-		
+		dado.close();
 		soma = np1+np2+np3+np4;
 		media = soma / 4;
 		System.out.println(nome + " A sua media atual é: " + nota.format(media));

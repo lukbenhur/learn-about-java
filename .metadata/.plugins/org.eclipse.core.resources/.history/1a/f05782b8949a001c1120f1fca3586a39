@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class A7_String {
+	public static void main(String[] args) {
+		String frase = "Olá mundo";
+		System.out.println("Olá Mundo!!!".toUpperCase());
+			
+		System.out.println(frase.charAt(5)); //mostra o char no indice 5
+		System.out.println(frase.concat(" Cruel!!!")); // concatena ao final
+		System.out.println(frase.equals("Olá mundo")); //equipara as duas frases (é CaseSensitive)
+		System.out.println(frase.equals("olá mundo")); // """"
+		System.out.println(frase.equalsIgnoreCase("olá mundo")); //equipara ignorando letras maiusculas e minusculas
+		System.out.println(frase.contains("mun"));
+		
+		
+	}
+}

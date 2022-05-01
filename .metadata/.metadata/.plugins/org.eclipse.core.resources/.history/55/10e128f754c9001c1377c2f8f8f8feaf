@@ -1,0 +1,17 @@
+package fundamentos.Exercicios;
+
+import java.util.Scanner;
+
+public class Resultado {
+	public static void main(String[] args) {
+		double resultado,numero=0;
+		final double quadrado = Math.pow(numero, 2);
+		final double cubo = Math.pow(numero, 3);
+		Scanner dado = new Scanner(System.in);
+		
+		System.out.println("Qual o valor que você quer?");
+		numero = dado.nextDouble();
+		
+		System.out.println("O quadrado e o cubo do numero digitado é:" + quadrado + " " +cubo);
+	}
+}

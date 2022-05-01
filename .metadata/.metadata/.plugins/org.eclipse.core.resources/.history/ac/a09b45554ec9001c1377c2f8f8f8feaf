@@ -1,0 +1,10 @@
+package fundamentos.Exercicios;
+/*
+ * Criar um programa que leia o peso e a altura do usuário e imprima no console o IMC.
+ */
+public class IMC {
+	
+	public static void main(String[] args) {
+		
+	}
+}

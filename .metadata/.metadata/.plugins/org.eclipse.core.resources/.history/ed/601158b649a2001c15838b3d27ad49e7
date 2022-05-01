@@ -1,0 +1,16 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Revisao {
+	public static void main(String[] args) {
+		
+		double np1,np2,np3,np4,media,soma;
+		String nome;
+		Scanner dado = new Scanner(System.in);
+		
+		System.out.println("Qual é o seu nome?");
+		nome = dado.nextLine();
+		System.out.println(nome);
+	}
+}

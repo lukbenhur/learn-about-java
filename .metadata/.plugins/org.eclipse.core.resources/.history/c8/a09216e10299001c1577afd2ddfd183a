@@ -1,0 +1,16 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Operadores {
+	
+	public static void main(String[] args) {
+		int n1,n2,n3,n4;
+		Scanner dado = new Scanner(System.in);
+		n1 = dado.nextInt();
+		n2 = dado.nextInt();
+		n3 = dado.nextInt();
+		n4 = dado.nextInt();
+		System.out.println(n1+n2+n3+n4);
+	}
+}

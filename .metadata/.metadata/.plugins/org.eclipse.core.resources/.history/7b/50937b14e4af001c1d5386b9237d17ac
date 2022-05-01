@@ -1,0 +1,28 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class D_DesafioConversao {
+	public static void main(String[] args) {
+		Scanner dado = new Scanner(System.in);
+		String sal1,sal2,sal3;
+		double soma,media,rem1,rem2,rem3;
+		
+		
+		System.out.println("Digite o seu salario do mes 1:");
+		sal1 = dado.nextLine().replace(",",".");
+		System.out.println("Digite o seu salario do mes 2:");
+		sal2 = dado.nextLine().replace(",",".");
+		System.out.println("Digite o seu salario do mes 3:");
+		sal3 = dado.nextLine().replace(",",".");
+		
+		rem1 = Double.parseDouble(sal1);
+		rem2 = Double.parseDouble(sal2);
+		rem3 = Double.parseDouble(sal3);
+		
+		soma = rem1 + rem2 + rem3;
+		media = soma / 3;
+		System.out.println(media);
+		dado.close();
+	}
+}

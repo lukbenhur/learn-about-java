@@ -1,0 +1,20 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class XXXXXXXXXXXXXX {
+ public static void main(String[] args) {
+	 Scanner teclado = new Scanner(System.in);
+	 int idade;
+	 String nome,sobrenome;
+	 
+	 System.out.println("Qual a sua idade?");
+	 idade = teclado.nextInt();
+	 System.out.println("Qual o seu nome?");
+	 nome = teclado.nextLine();
+	 System.out.println("Qual o seu sobrenome?");
+	 sobrenome = teclado.nextLine();
+	  
+	 teclado.close();
+}
+}

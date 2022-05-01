@@ -1,0 +1,13 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class NotacaoPonto {
+ 
+	public static void main(String[] args) {
+		String nome;
+		Scanner dado;
+		dado = new Scanner(System.in);
+		nome = dado.next();
+	}
+}

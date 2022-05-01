@@ -1,0 +1,12 @@
+package fundamentos;
+
+public class A7_String {
+	public static void main(String[] args) {
+		
+		System.out.println("Olá Mundo!!!".toUpperCase());
+			
+		
+		
+		
+	}
+}

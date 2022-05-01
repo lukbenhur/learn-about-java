@@ -1,0 +1,11 @@
+package fundamentos;
+
+public class Operadores {
+	
+	public static void main(String[] args) {
+
+		x = Math.cos(3.5);
+		System.out.println(x);
+
+	}
+}
