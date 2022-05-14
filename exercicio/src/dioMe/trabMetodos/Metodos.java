@@ -1,4 +1,4 @@
-package dioMe;
+package dioMe.trabMetodos;
 
 import java.util.Scanner;
 

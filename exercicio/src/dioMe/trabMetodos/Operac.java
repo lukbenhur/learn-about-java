@@ -1,4 +1,4 @@
-package dioMe;
+package dioMe.trabMetodos;
 
 public class Operac {
 	

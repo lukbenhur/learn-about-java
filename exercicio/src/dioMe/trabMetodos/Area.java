@@ -1,4 +1,4 @@
-package dioMe;
+package dioMe.trabMetodos;
 /*
  * 3 metodos "iguais" com mesmo nome porem distintos pois a assinatura deles e distinta :> ass = nome + parametro;
  */
