@@ -6,14 +6,14 @@ public class A14_ToString {
 
 	public static void main(String[] args) {
 		/*
-		 * comparação de strings usa-se o .equals
+		 * comparaï¿½ï¿½o de strings usa-se o .equals
 		 */
 		Scanner dado = new Scanner(System.in);
-		String x = dado.nextLine(); //nextLine considera tudo que voce usa , next desconsidera o que vem apos os espaços
-//		String x = dado.next(); nextLine considera tudo que voce usa , next desconsidera o que vem apos os espaços
+		String x = dado.nextLine(); //nextLine considera tudo que voce usa , next desconsidera o que vem apos os espaï¿½os
+//		String x = dado.next(); nextLine considera tudo que voce usa , next desconsidera o que vem apos os espaï¿½os
 		dado.close();
-		System.out.println("2".equals(x.trim())); //se quiser comparar strings deve-se usar o .equals! .trim() desconsidera os espaços da string;
-		//caso use o next o . tring nao é necessario.
+		System.out.println("2".equals(x.trim())); //se quiser comparar strings deve-se usar o .equals! .trim() desconsidera os espaï¿½os da string;
+		//caso use o next o . trim nao Ã© necessario.
 	}
 
 }
