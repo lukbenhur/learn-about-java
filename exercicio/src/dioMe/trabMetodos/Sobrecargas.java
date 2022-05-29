@@ -3,11 +3,11 @@ package dioMe.trabMetodos;
 import java.util.Scanner;
 
 /*
- * sobrecarga é a possibilidade de usar o mesmo metodo para funcionalidades distintas apenas mudando o parametro
+ * sobrecarga ï¿½ a possibilidade de usar o mesmo metodo para funcionalidades distintas apenas mudando o parametro
  * por exp. o metodo SYSO println(); e um exemplo de sobrecarga pois ele mantem o mesmo nome e pode realizar funcionalidades disferentes
  */
 /*
- * criar uma aplicaçao que calcula a area dos 3 quadrilateros
+ * criar uma aplicaï¿½ao que calcula a area dos 3 quadrilateros
  * quadrado retangula e trapezio.
  * 
  * Atrapezio = B + b * h / 2
@@ -20,7 +20,7 @@ public class Sobrecargas {
 		double B, b, a, lado,area;
 		Scanner dado =  new Scanner(System.in);
 		
-		System.out.println("Qual o quadrilátero notável que você deseja calcular?");
+		System.out.println("Qual o quadrilï¿½tero notï¿½vel que vocï¿½ deseja calcular?");
 		tipo = dado.nextLine().toLowerCase();
 		
 		switch (tipo) {
@@ -51,7 +51,7 @@ public class Sobrecargas {
 			System.out.println(area);
 			break;
 			default:
-				System.out.println("Realize uma operação válida!");
+				System.out.println("Realize uma operaÃ§ao valida!");
 			
 		}
 		

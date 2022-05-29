@@ -27,7 +27,7 @@ public class Operac {
 			break;
 
 		default:
-			System.out.println("operaçao invalida  " + operacao);
+			System.out.println("operaÃ§ao invalida  " + operacao);
 		}
 	}
 }

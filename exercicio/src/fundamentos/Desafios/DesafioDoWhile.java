@@ -1,5 +1,8 @@
 package fundamentos.Desafios;
 
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class DesafioDoWhile {
@@ -9,16 +12,22 @@ public class DesafioDoWhile {
 	public static void main(String[] args) {
 		Scanner dado = new Scanner(System.in);
 		double totalNotas = 0, somaNotas = 0, nota;
-		int tentativas = 0,i=0;
-		double[] notasAluno = new double[100];
-		
+		int tentativas = 0,i=0,contador;
+		String convert;
+		DecimalFormat formatar = new DecimalFormat("#.##");
+		//double[] notasAluno = new double[100];
+		ArrayList<Double> notasAluno = new ArrayList<Double>();
+		System.out.println("Quantas notas serão digitadas?");
+		contador = dado.nextInt();
 		do {
 			System.out.println("digite as notas");
-			nota = dado.nextDouble();
+			convert = dado.next().replace(",", ".");
+			nota = Double.parseDouble(convert);
 			if((nota >= 0 && nota <= 10)) { //verifica se o intervalo é valido para fazer as somas;;
 				totalNotas++;
 				somaNotas = somaNotas + nota;
-				notasAluno[i] = nota;
+				//notasAluno[i] = nota;
+				notasAluno.add(nota);
 				i++;
 			}else { //caso nao esteja no range válido executa o bloco else
 				System.out.println("digite uma nota valida");
@@ -30,19 +39,26 @@ public class DesafioDoWhile {
 				nota = 0; //caso o usuario nao tenha digitado -1 sobrescrevo o valor da nota p entrar no loop novamente 
 			}
 				
-		} while (nota >= 0 && nota <= 10); //verifica o loop
+		} while (nota >= 0 && nota <= 10 && i+1 <= contador ); //verifica o loop
+		
 		System.out.println("<<<<<<<<<<<<<<>>>>>>>>>>>>>>>");
 		
-		for(int count = 0; count < notasAluno.length;count++) {
-			if(notasAluno[count]== undefined) {
-				
+		for(int count = 0; count < notasAluno.size();count++) {
+			//if(notasAluno[count]== undefined) {
+			if(notasAluno.get(count)== undefined) {
+				break;
 			}else {
-				System.out.println("notas digitadas: " + notasAluno[count]);
+				//System.out.println("notas digitadas: " + notasAluno[count]);
+				System.out.println("notas digitadas: " + notasAluno.get(count));
 			}
 		}
-		System.out.println("total de notas digitadas: "+totalNotas);
+		System.out.println("total de notas digitadas: "+(int)totalNotas);
 		System.out.println("soma das notas digitadas: "+somaNotas);
-		System.out.println("media das notas digitadas: "+(somaNotas/totalNotas));
+		System.out.println("media das notas digitadas: "+formatar.format(somaNotas/totalNotas));
 		dado.close();
+		System.out.println("As notas em ordem crescente ficam ");
+		Collections.sort(notasAluno);
+		System.out.println(notasAluno);
 	}
 }
+ 	
