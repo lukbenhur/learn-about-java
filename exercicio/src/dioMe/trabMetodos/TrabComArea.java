@@ -14,7 +14,7 @@ import java.util.Scanner;
  * quadrado =  lado x lado
  * retangulo = base x altura
  */
-public class Sobrecargas {
+public class TrabComArea {
 	public static void main(String[] args) {
 		String tipo;
 		double B, b, a, lado,area;

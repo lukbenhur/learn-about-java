@@ -6,17 +6,18 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class DesafioDoWhile {
-
 	private static double undefined;
 
 	public static void main(String[] args) {
 		Scanner dado = new Scanner(System.in);
 		double totalNotas = 0, somaNotas = 0, nota;
 		int tentativas = 0,i=0,contador;
-		String convert;
+		String convert,situacao;
 		DecimalFormat formatar = new DecimalFormat("#.##");
 		//double[] notasAluno = new double[100];
 		ArrayList<Double> notasAluno = new ArrayList<Double>();
+		
+		
 		System.out.println("Quantas notas serão digitadas?");
 		contador = dado.nextInt();
 		do {
@@ -31,9 +32,11 @@ public class DesafioDoWhile {
 				i++;
 			}else { //caso nao esteja no range válido executa o bloco else
 				System.out.println("digite uma nota valida");
+				System.out.println("Se deseja sair digite (-1) ou (sair)");
+				situacao = dado.next();
 				tentativas++;	
-				if(nota == -1 ||tentativas == 3) {
-					System.out.printf("total de %d tentativas excedidas, ou usuario digitou -1%n%n",tentativas);
+				if(tentativas == 3 ||situacao.equalsIgnoreCase("sair")||situacao.equals("-1")) {
+					System.out.printf("total de %d tentativas excedidas, ou usuario digitou -1 ou sair%n%n",tentativas);
 					break; //o codigo quebra caso o usauario digite -1 ou forneça 3 notas invalidas
 				}
 				nota = 0; //caso o usuario nao tenha digitado -1 sobrescrevo o valor da nota p entrar no loop novamente 
