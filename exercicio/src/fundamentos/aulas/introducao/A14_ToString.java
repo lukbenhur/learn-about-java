@@ -1,4 +1,4 @@
-package fundamentos.aulas;
+package fundamentos.aulas.introducao;
 
 import java.util.Scanner;
 

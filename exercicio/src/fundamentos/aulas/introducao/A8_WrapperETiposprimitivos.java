@@ -1,4 +1,4 @@
-package fundamentos.aulas;
+package fundamentos.aulas.introducao;
 
 import java.util.Scanner;
 
@@ -31,7 +31,7 @@ public class A8_WrapperETiposprimitivos {
 		Character c = 'C';
 	
 		System.out.println(bo.toString().toUpperCase()); //pego o valor da variavel bo (boobleano) transformo em uma string e tranformo p caixa alta
-		//System.out.println(b.toString() * 10); //impussivel fazer operação pois embora a variavel b seja number quando se usa o metodo tostring a transforma em string.
+		//System.out.println(b.toString() * 10); //impussivel fazer operaï¿½ï¿½o pois embora a variavel b seja number quando se usa o metodo tostring a transforma em string.
 		System.out.println(b * 10);
 	}
 }

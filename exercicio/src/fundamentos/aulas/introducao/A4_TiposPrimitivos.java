@@ -1,4 +1,4 @@
-package fundamentos.aulas;
+package fundamentos.aulas.introducao;
 
 public class A4_TiposPrimitivos {
 	
@@ -11,12 +11,12 @@ public class A4_TiposPrimitivos {
 		//dados numericos flutuantes
 		float e = 3.12F; //preciso usar o F no final 
 		double f = 3.12;
-		//dados lógicos
+		//dados lï¿½gicos
 		boolean g = true; //false
 		//caracteres
 		char h = 'B'; //mostrado em aspa simples e so uma letra
 		
-		String i = "Lucas"; // a String não é um tipo primitivo;;
+		String i = "Lucas"; // a String nï¿½o ï¿½ um tipo primitivo;;
 		System.out.println(i);
 		System.out.println(h); 
 	}

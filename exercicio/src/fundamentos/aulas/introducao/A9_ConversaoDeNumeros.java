@@ -1,4 +1,4 @@
-package fundamentos.aulas;
+package fundamentos.aulas.introducao;
 
 public class A9_ConversaoDeNumeros {
 	public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class A9_ConversaoDeNumeros {
 		 * tipos primitivos numericos inteiros : byte,short,int,long = java adota o int como o literal padrao
 		 * tipos primitivos numericos flutuante : float,double = java adota o double como o literal padrao
 		 * 
-		 * na transformaçao de um numero de tipo "menor" para um maior acontece implicitamente sem problema , mas um maior para um menor
+		 * na transformaï¿½ao de um numero de tipo "menor" para um maior acontece implicitamente sem problema , mas um maior para um menor
 		 * tem que ser explicita, pois ocorre perca de dados;;;; o mesmo acontece de int - float nao ha problema , mas de float para int
 		 * tem que ser explicito pois ha perca de dados
 		 */

@@ -1,4 +1,4 @@
-package fundamentos.aulas;
+package fundamentos.aulas.introducao;
 
 public class A12_OperadoresLogicos {
 	public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class A12_OperadoresLogicos {
 		System.out.println(true ^ false);
 		System.out.println(false ^ true);
 		System.out.println(false ^ false);
-		System.out.println("\nTabela verdade da negação (not)"); //operador unário;
+		System.out.println("\nTabela verdade da negaï¿½ï¿½o (not)"); //operador unï¿½rio;
 		System.out.println(!true);
 		System.out.println(!false);
 		System.out.println(!!true);

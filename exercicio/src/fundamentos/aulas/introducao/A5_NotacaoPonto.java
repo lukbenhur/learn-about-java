@@ -1,16 +1,16 @@
-package fundamentos.aulas;
+package fundamentos.aulas.introducao;
 
 public class A5_NotacaoPonto {
 
 	public static void main(String[] args) {
 
-		String nome = "X é bonitão";
+		String nome = "X ï¿½ bonitï¿½o";
 			nome = nome.replace("X", "Lucas");
 			nome = nome.toUpperCase();
 			nome = nome.concat("!!!:D");
 		System.out.println(nome);
 
-		String nome1 = "X é bonitão".replace("X","Lucas").concat("!!!:C").toUpperCase(); //posso quebrar linha antes ou depois do ponto;;
+		String nome1 = "X ï¿½ bonitï¿½o".replace("X","Lucas").concat("!!!:C").toUpperCase(); //posso quebrar linha antes ou depois do ponto;;
 		System.out.println(nome1);
 		
 		

@@ -1,11 +1,11 @@
-package fundamentos.aulas;
+package fundamentos.aulas.introducao;
 
 public class A3_Inferencias {
 	public static void main(String[] args) {
 		/* capacidade do java que eu posso declarar uma variavel usando a palavra reservada VAR
-		 * sem especificar o tipo de dado que eu vou colocar na variavel , porém o ao decalrar a variavel
+		 * sem especificar o tipo de dado que eu vou colocar na variavel , porï¿½m o ao decalrar a variavel
 		 * tenho que atribuir um valor a ela, e o java por meio de inferencia especifica que dado 
-		 * sera guardado naquele espaço que nao poderá mudar;;
+		 * sera guardado naquele espaï¿½o que nao poderï¿½ mudar;;
 		 */
 		double a = 12.9;
 		System.out.println(a);

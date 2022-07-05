@@ -18,7 +18,7 @@ public class Ex7 {
 			if(valor > 0) {
 				contador += valor;
 			}
-		}while(valor > 0);
+		}while(valor >= 0);
 
 		System.out.println(contador);
 

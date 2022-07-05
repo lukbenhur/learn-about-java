@@ -1,19 +1,19 @@
-package fundamentos.aulas;
+package fundamentos.aulas.introducao;
 
 public class A7_String {
 	public static void main(String[] args) {
-		String frase = "Olá mundo";
-		System.out.println("Olá Mundo!!!".toUpperCase());// posso usar os metodos no valor literal ou armazenar numa variavel e trabalhar com a variavel;;
+		String frase = "Olï¿½ mundo";
+		System.out.println("Olï¿½ Mundo!!!".toUpperCase());// posso usar os metodos no valor literal ou armazenar numa variavel e trabalhar com a variavel;;
 			
 		System.out.println(frase.charAt(5)); //mostra o char no indice 5
 		System.out.println(frase.concat(" Cruel!!!")); // concatena ao final
-		System.out.println(frase.equals("Olá mundo")); //equipara as duas frases (é CaseSensitive)
-		System.out.println(frase.equals("olá mundo")); // """"
-		System.out.println(frase.equalsIgnoreCase("olá mundo")); //equipara ignorando letras maiusculas e minusculas
+		System.out.println(frase.equals("Olï¿½ mundo")); //equipara as duas frases (ï¿½ CaseSensitive)
+		System.out.println(frase.equals("olï¿½ mundo")); // """"
+		System.out.println(frase.equalsIgnoreCase("olï¿½ mundo")); //equipara ignorando letras maiusculas e minusculas
 		System.out.println(frase.contains("mun")); //contem a sequencia mun na frase
-		System.out.println(frase.toLowerCase().startsWith("olá")); //a frase começa com (parametro)?
+		System.out.println(frase.toLowerCase().startsWith("olï¿½")); //a frase comeï¿½a com (parametro)?
 		System.out.println(frase.toLowerCase().endsWith("mundo")); // a frase termina com (parametro)?
-		System.out.println(frase.length()); //retorna o tamanho da minha string(espaço conta como caracter)
+		System.out.println(frase.length()); //retorna o tamanho da minha string(espaï¿½o conta como caracter)
 		
 		var name = "lucas"; // por inferencia a variavel name se torna do tipo string e nao podera receber outro tipo posteriomente;;
 		var lastName = "acacio"; 
@@ -21,7 +21,7 @@ public class A7_String {
 		var wage = 3200.58;
 		
 		System.out.println("nome: " + name +"\nSobrenome: " + lastName + "\nidade: "+ age +"\nsalario: " + wage);
-		System.out.printf("O senhor %s %s tem %d anos de idade e ganha R$ %.2f por mês",name,lastName,age,wage);
+		System.out.printf("O senhor %s %s tem %d anos de idade e ganha R$ %.2f por mï¿½s",name,lastName,age,wage);
 		/* %s - string
 		 * %d - numero inteiro
 		 * %f - numero flutuante
